@@ -1,0 +1,23 @@
+# ---- Node ----
+node_modules/
+npm-debug.log*
+
+# ---- Runtime artifacts (regenerated when the app runs) ----
+security.log
+*.log
+
+# ---- Docs, reports & screenshots: keep locally, do NOT push ----
+*.pdf
+*.docx
+*.pptx
+*.png
+*.PNG
+# keep README.md (repo front page); ignore all other markdown
+*.md
+!README.md
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
